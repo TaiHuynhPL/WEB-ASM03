@@ -1,0 +1,70 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* Thanh navbar */
+  .avatar {
+    display: none;
+  }
+
+  .nav-bar-detail.last-detail {
+    border-right: 1px solid #ced4da;
+  }
+
+  .nav-bar-detail {
+    padding: 12px 12px;
+    color: #339af0;
+    border-left: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  /* phần thông tin cá nhân */
+  #target {
+    padding-left: 64px;
+  }
+
+  #personal-info {
+    padding-right: 64px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+  /* chứng chỉ giải thưởng */
+
+  .certificate,
+  .certificate-last {
+    flex-direction: column;
+    padding: 0 24px 12px;
+    margin: 24px 0;
+    gap: 8px;
+  }
+
+  .cer-img,
+  .cer-img1 {
+    height: auto;
+  }
+
+  .cer-right::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 52%;
+    height: 270px;
+    width: 1px;
+    background-color: #d6c08d;
+  }
+
+  /* Phần dự án */
+
+  .project-detail {
+    padding: 8px 16px 0;
+    grid-template-columns: 2fr 3fr;
+    justify-items: start;
+  }
+
+  .project-detail-time {
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+}

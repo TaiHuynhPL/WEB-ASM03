@@ -1,0 +1,64 @@
+@media only screen and (max-width: 768px) {
+  /* Thanh navbar */
+
+  .nav-container {
+    margin: 24px 0;
+  }
+
+  .nav-bar-center {
+    display: none;
+  }
+
+  .nav-bar-detail {
+    padding: 4px 10%;
+    color: #339af0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+  }
+
+  /* Phần thông tin */
+
+  .info-container {
+    padding: 42px;
+  }
+
+  .cer-left {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /* chứng chỉ giải thưởng */
+
+  .certificate,
+  .certificate-last {
+    flex-direction: column;
+    padding: 0 24px 12px;
+    margin: 24px 0;
+    gap: 8px;
+  }
+
+  .cer-img,
+  .cer-img1 {
+    height: auto;
+  }
+
+  /* Phần dự án */
+
+  .project {
+    padding-bottom: 36px;
+  }
+
+  .project-detail {
+    padding-left: 24px;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 12px;
+  }
+
+  /* Phần Footer */
+
+  .footer-link a {
+    display: none;
+  }
+}
